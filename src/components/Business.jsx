@@ -17,7 +17,7 @@ function Business() {
           of credit cards on the market.
         </p>
         <Button
-          styles="mt-10 rounded-[7px]"
+          styles="mt-10 rounded-[10px]"
           type="button"
           title="Get Started"
         />
