@@ -4,7 +4,7 @@ import { logo } from '../assets';
 
 function Footer() {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+    <footer className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col m-8 w-full`}>
         <div className="flex-1 flex flex-col justify-start mr-10">
           <img
@@ -58,7 +58,7 @@ function Footer() {
           ))}
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
 
